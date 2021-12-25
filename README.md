@@ -33,7 +33,8 @@ make
 ### Как запустить
 
 ```
-    mpirun -n 25 --oversubscribe ./task1.out
+    export OMPI_MCA_btl=self,tcp
+    mpirun -n 25 --oversubscribe ./task1
 ```
 
 
@@ -55,3 +56,4 @@ make
 
 
 
+tar -czf distributed_networks_mpi.tgz distributed_networks_mpi
