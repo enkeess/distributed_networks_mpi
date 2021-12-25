@@ -53,7 +53,3 @@ make
 ```
     mpirun -np 32 --with-ft ulfm ./task2 26
 ```
-
-
-
-tar -czf distributed_networks_mpi.tgz distributed_networks_mpi
